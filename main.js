@@ -31,32 +31,32 @@ function my_keydown(e)
  console.log(keyPressed);
 	if(keyPressed == '82')
 	{
-		new_image = 'rr1.png';
+		new_image = ('rr1.png');
 		console.log("R");
 	}
 	if(keyPressed == '71')
 	{
 		block_x = 200;
-		new_image = 'gr.png';
+		new_image = ('gr.png');
 		console.log("G");
 	}
 	
 	if(keyPressed == '89')
 	{
 		block_x =350;
-		new_image = 'yr.png';
+		new_image = ('yr.png');
 		console.log("Y");
 	}
 	if(keyPressed == '80')
 	{
 		block_x = 600;
-		new_image = 'pr.png';
+		new_image = ('pr.png');
 		console.log("P");
 	}
 	if(keyPressed == '66')
 	{
 		block_x = 700;
-		new_image = 'rr1.png';
+		new_image = '(rr1.png');
 		console.log("B");
 	}
 	
